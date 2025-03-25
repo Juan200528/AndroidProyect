@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ListView listView = findViewById(R.id.listView);
-        String[] nombres = {"Juan Rengifo", "Angel Duban", "Paula Chapeño", "Juan Meneses", "Eduar Jimenez", "Kevin Penagos", "Melissa Fernanda Muñoz"};
+        String[] nombres = {"Juan Rengifo", "Angel Duban", "Paula Chapeño", "Juan Meneses", "Eduar Jimenez", "Kevin Penagos", "Melissa Muñoz"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, nombres);
         listView.setAdapter(adapter);
